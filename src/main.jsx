@@ -5,7 +5,6 @@ import App from './App';
 import './index.css';
 import { AuthProvider } from './context/AuthContext';
 import { BookingProvider } from './context/BookingContext';
-import 'aos/dist/aos.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
