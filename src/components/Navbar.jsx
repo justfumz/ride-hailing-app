@@ -12,7 +12,10 @@ function Navbar() {
 
   return (
     <nav className="bg-white shadow-md p-4 flex justify-between items-center">
-      <div className="font-bold text-lg">RideXpress</div>
+      <Link to="/">
+        {' '}
+        <div className="font-bold text-lg">RideXpress</div>
+      </Link>
 
       <div className="space-x-4 flex items-center">
         <Link to="/" className="text-gray-700 hover:text-blue-600">
